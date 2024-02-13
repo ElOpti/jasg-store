@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.header {
+    background-color: rgb(219, 243, 136);
+    border: 3px solid;
+    border-radius: 10px;
+    margin: 1%;
+    min-height: 40px;
+    text-align: center;
+    box-shadow: 1px 9px 20px -6px rgba(0,0,0,0.76);
+-webkit-box-shadow: 1px 9px 20px -6px rgba(0,0,0,0.76);
+-moz-box-shadow: 1px 9px 20px -6px rgba(0,0,0,0.76);
+}
+
+.footer {
+    background-color: rgb(156, 243, 136);
+    border: 3px solid;
+    border-radius: 10px;
+    margin: 1%;
+    min-height: 40px;
+    text-align: center;
+    box-shadow: 1px 9px 20px -6px rgba(0,0,0,0.76);
+-webkit-box-shadow: 1px 9px 20px -6px rgba(0,0,0,0.76);
+-moz-box-shadow: 1px 9px 20px -6px rgba(0,0,0,0.76);
+}
+
+.content {
+    background-color: rgb(220, 254, 255);
+    display: block;
+    border: 3px solid ;
+    border-radius: 10px;
+    margin: 1%;
+    min-height: calc(100vh - 80px);
+}
+
+div.cart{
+    float: right;
+    margin-right: 5px;
+}
+
+.cart img {
+    height: 30px;
+    width: 30px;
+}
+
+.cart span {
+    font-size: 0.5px;
+}
