@@ -1,0 +1,9 @@
+{
+    "productos": [
+      {"id":"1", "nombre":"WebCam", "descripcion":"WebCam descripcion", "precio":400, "imagen":""},
+      {"id":"2", "nombre":"Teclado", "descripcion":"Teclado descripcion", "precio":420, "imagen":""},
+      {"id":"3", "nombre":"Ratón", "descripcion":"Ratón descripcion", "precio":600, "imagen":""},
+      {"id":"4", "nombre":"Lámpara", "descripcion":"Ratón descripcion", "precio":1000, "imagen":""}
+    ]
+  }
+  

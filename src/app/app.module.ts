@@ -10,6 +10,8 @@ import { MessageService } from 'primeng/api';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './componentes/plantillas/header/header.component';
 import { FooterComponent } from './componentes/plantillas/footer/footer.component';
+import { ProductosModule } from './modulos/productos/productos.module';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { FooterComponent } from './componentes/plantillas/footer/footer.componen
     PrimengModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    HttpClientModule  
+    HttpClientModule,
+    ProductosModule
   ],
   providers: [
     MessageService,
