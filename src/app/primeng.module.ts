@@ -5,6 +5,7 @@ import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { SidebarModule } from 'primeng/sidebar';
 import { ToastModule } from 'primeng/toast';
+import { SliderModule } from 'primeng/slider';
 
 
 const misModulos: any = [
@@ -12,7 +13,8 @@ const misModulos: any = [
   CardModule,
   SidebarModule,
   ToastModule,
-  TabMenuModule
+  TabMenuModule,
+  SliderModule
 ];
 
 

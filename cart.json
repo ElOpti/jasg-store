@@ -1,9 +1,12 @@
 {
     "productos": [
-      {"id":"1", "nombre":"WebCam", "descripcion":"WebCam descripcion", "precio":400, "imagen":""},
-      {"id":"2", "nombre":"Teclado", "descripcion":"Teclado descripcion", "precio":420, "imagen":""},
-      {"id":"3", "nombre":"Ratón", "descripcion":"Ratón descripcion", "precio":600, "imagen":""},
-      {"id":"4", "nombre":"Lámpara", "descripcion":"Ratón descripcion", "precio":1000, "imagen":""}
+      {"id":"1", "nombre":"WebCam", "descripcion":"WebCam para streaming", "marca":"Marca: Logitech", "stock":"Disponible", "tipo":"Nuevo",  "precio":400, "imagen":"https://th.bing.com/th/id/OIP.AZDa_xC7-L5nYG54SLg5WwHaHa?rs=1&pid=ImgDetMain"},
+      {"id":"2", "nombre":"Teclado", "descripcion":"Teclado ROG Gamer", "marca":"Marca: ROG", "stock":"Disponible", "tipo":"Nuevo", "precio":420, "imagen":"https://www.ginjfo.com/wp-content/uploads/2016/10/Claymore_03.jpg"},
+      {"id":"3", "nombre":"Ratón", "descripcion":"Ratón Razer Gamer", "marca":"Marca: Razer", "stock":"Disponible", "tipo":"Nuevo", "precio":600, "imagen":"https://www.bhphotovideo.com/images/images2500x2500/Razer_rz01_00780100_r3u1_Taipan_Expert_Gaming_Mouse_889922.jpg"},
+      {"id":"4", "nombre":"Lámpara", "descripcion":"Lampara de aro de luz", "marca":"Marca: Patito", "stock":"Disponible", "tipo":"Nuevo", "precio":1000, "imagen":"https://resources.claroshop.com/medios-plazavip/s2/10487/1327077/5e46a81ddc24b-c52952f7-81b6-48f9-891a-412663e9f15f-1600x1600.jpg"},
+      {"id":"5", "nombre":"Queso De Cincho", "descripcion":"1 Kg Queso De Cincho", "marca":"Marca: Generica", "stock":"Disponible", "tipo":"Nuevo", "precio":600, "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_730348-MLM47654015192_092021-F.webp"},
+      {"id":"6", "nombre":"Queso Cotija", "descripcion":"Queso Cotija El Legado (3.3kg)", "marca":"Marca: El Legado", "stock":"Disponible", "tipo":"Nuevo", "precio":600, "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_615762-MLM69650761078_052023-F.webp"},
+      {"id":"7", "nombre":"Queso Cotija Supremo", "descripcion":"Queso Cotija Supremo", "marca":"Marca: El Legado", "stock":"Disponible", "tipo":"Nuevo", "precio":600, "imagen":"https://http2.mlstatic.com/D_NQ_NP_2X_730560-MLM69650773234_052023-F.webp"}
     ]
   }
   

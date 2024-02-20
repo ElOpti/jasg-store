@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Producto } from '../../interfaces/producto';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-producto',
@@ -8,9 +9,14 @@ import { Producto } from '../../interfaces/producto';
 })
 export class ProductoComponent {
   @Input() producto?: Producto;
+  //productoForm = this.fb.group(
+    //{
+      //value: []
+    //}
+  //)
 
-  constructor() {
-  }
+ // constructor(private fb: FormBuilder) {
+//  }
 
 
 

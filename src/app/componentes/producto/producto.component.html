@@ -1,13 +1,24 @@
 
-<p-card header="Producto" >
+<p-card header="{{producto?.nombre}}" [style]="{width: '360px'}">
     <ng-template pTemplate="header">
-        <img alt="Card" [style]="{width:'50px'}" src="https://primefaces.org/cdn/primeng/images/usercard.png" />
+        <img class="img" [src]="producto?.imagen" />
     </ng-template>
     <p>
-        Descripción
+        {{producto?.descripcion}}
     </p>
+    <p>
+        {{producto?.marca}}
+    </p>
+    <p>
+        {{producto?.stock}}
+    </p>
+    
+    <p>
+        {{producto?.tipo}}
+    </p>
+    <span>{{producto?.precio | currency}}</span>
     <ng-template pTemplate="footer">
-        <p-button label="Comprar" icon="pi pi-check"></p-button>
+        <p-button label="Comprar" icon="pi pi-cart-plus"></p-button>
     </ng-template>
   </p-card>
   
