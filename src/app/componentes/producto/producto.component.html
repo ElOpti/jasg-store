@@ -18,7 +18,7 @@
     </p>
     <span>{{producto?.precio | currency}}</span>
     <ng-template pTemplate="footer">
-        <p-button label="Comprar" icon="pi pi-cart-plus"></p-button>
+        <p-button (click)="add()" label="Comprar" icon="pi pi-cart-plus"></p-button>
     </ng-template>
   </p-card>
   
