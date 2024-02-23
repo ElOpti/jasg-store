@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'jasg-shopp';
+  showCart: boolean = true
+
+  toogleCart() {
+    this.showCart = !this.showCart
+  }
 }

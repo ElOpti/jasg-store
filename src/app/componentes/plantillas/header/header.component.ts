@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,8 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  @Output() show: EventEmitter<void> = new EventEmitter<void>()
+
   sidebarVisible3: boolean = false;
 
+  showCart() {
+    this.show.emit()
+  }
 }
 
 
