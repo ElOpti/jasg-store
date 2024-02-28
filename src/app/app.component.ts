@@ -12,4 +12,7 @@ export class AppComponent {
   toogleCart() {
     this.showCart = !this.showCart
   }
+
+  
+
 }

@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ProductosListaComponent } from '../../componentes/productos-lista/productos-lista.component';
 import { ProductoComponent } from '../../componentes/producto/producto.component';
 import { ModprimengModule } from '../../modprimeng.module';
-
+import { DataViewModule } from 'primeng/dataview';
 
 
 @NgModule({
@@ -14,6 +14,7 @@ import { ModprimengModule } from '../../modprimeng.module';
   imports: [
     CommonModule,
     ModprimengModule,
+    DataViewModule
   ],
   exports: [
     ProductosListaComponent,

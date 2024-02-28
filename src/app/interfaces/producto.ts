@@ -1,4 +1,5 @@
 export interface Producto {
+    inventoryStatus: any;
     id: number;
     nombre:string;
     descripcion: string;
