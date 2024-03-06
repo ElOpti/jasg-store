@@ -1,9 +1,37 @@
 <p>Carrito de Compras</p>
-<br />
-<div class="contenido">
-    <div class="item" *ngFor="let item of cart">
-        <span>Nombre: {{ item.nombre | titlecase }}</span>
-        <span>Precio: {{ item.precio | currency }}</span>
-        <span>Cantidad: {{ item.cantidad }}</span>
-    </div>
-</div>
+<br>
+<div *ngIf="cart.length > 0; else carritoVacio">
+    <table class="tabla">
+        <thead>
+            <tr>
+                <th class="columna">Imagen</th>
+                <th class="columna">Producto</th>
+                <th class="columna">Descripción</th>
+                <th class="columna">Precio unitario</th>
+                <th class="columna">Cantidad</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let producto of cart" class="producto-item">
+                <td>
+                  <img class="imgcart" [src]="producto.imagen" style="height: 100px; width: 100px;" alt="{{ producto.nombre }}">
+                </td>
+                <td>{{ producto.nombre | uppercase }}</td>
+                <td>{{ producto.descripcion }}</td>
+                <td>${{ producto.precio }}</td>
+                <td>{{ producto.cantidad }}</td>
+                <td>${{ (producto.precio * producto.cantidad).toFixed(2) }}</td>
+            </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4" class="text-end"><strong>Total: </strong></td>
+            <td>${{ calcularTotal().toFixed(2) }}</td>
+          </tr>
+        </tfoot>
+    </table>
+  </div>
+  <ng-template #carritoVacio>
+    <p>El carrito está vacío</p>
+  </ng-template>

@@ -33,7 +33,8 @@ export class ProductosListaComponent {
             descripcion: producto?.descripcion as string,
             precio: producto?.precio as number,
             marca: producto?.marca as string,
-            cantidad: 1
+            cantidad: 1,
+            imagen: producto?.imagen as string,
           })
         }
     

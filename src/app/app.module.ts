@@ -13,6 +13,8 @@ import { FooterComponent } from './componentes/plantillas/footer/footer.componen
 import { ProductosModule } from './modulos/productos/productos.module';
 import { ProductosService } from './servicios/productos.service';
 import { CartComponent } from './componentes/cart/cart.component';
+import { DialogService } from 'primeng/dynamicdialog';
+
 
 
 @NgModule({
@@ -33,7 +35,8 @@ import { CartComponent } from './componentes/cart/cart.component';
   ],
   providers: [
     MessageService,
-    provideClientHydration()
+    provideClientHydration(),
+    DialogService
   ],
   bootstrap: [AppComponent]
 })

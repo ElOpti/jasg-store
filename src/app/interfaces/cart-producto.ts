@@ -5,4 +5,5 @@ export interface CartProducto {
     precio: number;
     marca: string;
     cantidad: number;
+    imagen: string;
 }

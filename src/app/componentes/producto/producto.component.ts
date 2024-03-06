@@ -35,7 +35,8 @@ export class ProductoComponent {
         descripcion: this.producto?.descripcion as string,
         precio: this.producto?.precio as number,
         marca: this.producto?.marca as string,
-        cantidad: 1
+        cantidad: 1,
+        imagen: ''
       })
     }
 
